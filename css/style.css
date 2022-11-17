@@ -2,7 +2,7 @@ html {
     background-color: rgb(238, 238, 238);
 }
 
-.isud_header {
+.isud_header, .conferenceInfo {
 
     margin-left: auto;
     margin-right: auto;
@@ -20,7 +20,65 @@ html {
     vertical-align: middle;
 }
 
+.conferenceInfo{
+    background-color: #814CC8;
+    color:#f2f2f2;
+    padding: 10px 10px;
+}
 
+.whatWhereWhyConference img {
+    display: block;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /* max-width: 80%;
+    border-radius: 25px;
+    margin-top: .5%;
+    padding-top: .25%; */
+  }
+
+  .whatWhereWhyConference{
+    position: relative;
+  text-align: center;
+  color: white;
+  }
+  .centered{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .textWWWC{
+    font-weight: bold;
+    background-color: #71717182;
+    padding: 1em;
+  }
+
+  .whyNewYork {
+    text-align: left;
+    font-size: 1em;
+    line-height: 1.2em;
+    padding: 1.2em;
+  }
+  input {
+    box-sizing: border-box;
+    width: 97%;
+    padding: 12px 20px;
+    margin: 8px 1.5%;
+    border-radius: 6px;
+    background-color: rgb(255, 235, 212);
+  }
+  input[type=submit]:hover {
+    background-color: #ed87a6;
+    color: black;
+  }
+  input[type=submit] {
+    font-family: 'Lato', 'Franklin Gothic';
+    font-style: italic;
+    background-color: #41098B;
+    color: white;
+  }
 
 /* Add a black background color to the top navigation */
 .topnav {
@@ -199,5 +257,45 @@ html {
       .mySlides img{
         width:100%;
         max-height: fit-content;
+        border-radius: 25px;
       }
-}
+
+      .whatWhereWhyConference img {
+        display: block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        width: fit-content;
+        max-width: 80%;
+        border-radius: 25px;
+        margin-top: .5%;
+        padding-top: .25%;
+      }
+      
+      .whatWhereWhyConference {
+        width: 45%;
+        float: left;
+        margin-left: 3%;
+      }
+
+      .whyNewYork {
+        /* text-align: center; */
+        font-size: 1.2em;
+        line-height: 1.44em;
+        padding: 1.44em;
+
+        width: 45%;
+        float: right;
+        margin-right: 3%;
+      }
+      input {
+        width: 100%;
+      }
+
+      #submit {
+        width: fit-content;
+        display: block;
+        margin: 0 auto;
+        font-size: 0.9em;
+      }
+    }
