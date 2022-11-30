@@ -61,7 +61,7 @@ html {
     line-height: 1.2em;
     padding: 1.2em;
   }
-  .conferenceContact input {
+  input {
     box-sizing: border-box;
     width: 97%;
     padding: 12px 20px;
@@ -69,51 +69,16 @@ html {
     border-radius: 6px;
     background-color: rgb(255, 235, 212);
   }
-  .conferenceContact input[type=submit]:hover {
+  input[type=submit]:hover {
     background-color: #ed87a6;
     color: black;
   }
-  .conferenceContact input[type=submit] {
+  input[type=submit] {
     font-family: 'Lato', 'Franklin Gothic';
     font-style: italic;
     background-color: #41098B;
     color: white;
   }
-
-/* Add a black background color to the top navigation */
-.topnav {
-    background-color: #41098B;
-    overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    /* border-radius: 6px; */
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-    background-color: #ed87a6;
-    color: black;
-}
-
-/* Add an active class to highlight the current page */
-.topnav a.active {
-    background-color: #814CC8;
-    color: white;
-}
-
-/* Hide the link that should open and close the topnav on small screens */
-.topnav .icon {
-    display: none;
-}
 
 /* Slideshow container */
 .slideshow-container {
@@ -285,7 +250,7 @@ html {
         float: right;
         margin-right: 3%;
       }
-      input.conferenceContact {
+      input {
         width: 100%;
       }
 
