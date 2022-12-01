@@ -2,8 +2,9 @@ html {
   background-color: rgb(238, 238, 238);
 }
 
+/*** Index Page ***/
 .isud_header,
-.conferenceInfo {
+.secheader {
 
   margin-left: auto;
   margin-right: auto;
@@ -23,7 +24,7 @@ html {
   vertical-align: middle;
 }
 
-.conferenceInfo {
+.secheader {
   background-color: #814CC8;
   color: #f2f2f2;
   padding: 10px 10px;
@@ -89,7 +90,11 @@ input[type=submit] {
 }
 
 /* Slideshow container */
+.quote_home{
+  background-color: blue;
+}
 .slideshow-container {
+  /* float: right; */
   box-sizing: border-box;
   /* max-width: 1000px; */
   max-height: 350px;
@@ -101,45 +106,12 @@ input[type=submit] {
 .mySlides {
   box-sizing: border-box;
   display: none;
-
 }
 
 .mySlides img {
   width: 100%;
   max-height: 350px;
   /* max-height: 350px; */
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  box-sizing: border-box;
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  box-sizing: border-box;
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  box-sizing: border-box;
-  background-color: rgba(0, 0, 0, 0.8);
 }
 
 /* Caption text */
@@ -164,19 +136,6 @@ input[type=submit] {
   top: 0;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  box-sizing: border-box;
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
 
 
 /* Fading animation */
@@ -195,6 +154,8 @@ input[type=submit] {
     opacity: 1
   }
 }
+
+/*** Index Page END ***/
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
@@ -228,6 +189,7 @@ input[type=submit] {
 
 /* Media Screen: Min-Width 510px */
 @media screen and (min-width: 510px) {
+  /*** Index Page ***/
   .slideshow-container {
     max-width: 50%;
     max-height: fit-content;
@@ -263,7 +225,7 @@ input[type=submit] {
     line-height: 1.44em;
     padding: 1.44em;
 
-    width: 40%;
+    width: 45%;
     float: right;
     margin-right: 1%;
   }
@@ -278,10 +240,13 @@ input[type=submit] {
     margin: 0 auto;
     font-size: 0.9em;
   }
+
+  /*** Index Page End***/
 }
 
 /* Media Screen: Min-Width 768px */
 @media screen and (min-width: 768px) {
+  /*** Index Page ***/
   .slideshow-container {
     max-width: 50%;
     max-height: fit-content;
@@ -311,17 +276,6 @@ input[type=submit] {
     margin-left: 3%;
   }
 
-  .whyNewYork {
-    /* text-align: center; */
-    font-size: 1.2em;
-    line-height: 1.44em;
-    padding: 1.44em;
-
-    width: 40%;
-    float: right;
-    margin-right: 3%;
-  }
-
   input {
     width: 100%;
   }
@@ -333,17 +287,23 @@ input[type=submit] {
     font-size: 0.9em;
   }
 
-  @media screen and (min-width: 800px) {
-    .wrapper {
-      border: 1px solid #000;
-      width: 80%;
-      margin: auto;
-      background-color: red;
-    }
+  /*** Index Page End***/
+}
 
-    .clearer {
-      clear: both;
-    }
+/* Fixed with for Larger screens*/
+@media screen and (min-width: 800px) {
+  .wrapper {
+    /* border: 1px solid #000; */
+    width: 80%;
+    margin: auto;
+    /* background-color: red; */
   }
 
+  .clearer {
+    clear: both;
+  }
+
+  .secheader, .nav-list{
+    border-radius: 6px;
+  }
 }
