@@ -221,6 +221,16 @@ input[type=submit] {
   padding: 10px 10px;
 }
 
+iframe {
+  align-self: center;
+  width: 70%;
+  height: 30em;
+ }
+ .center {
+  margin-left: auto;
+  margin-right: auto;
+  display: block
+ }
 
 /*** Index Page END ***/
 
