@@ -190,7 +190,8 @@ input[type=submit] {
 
 .container{
     display: flex;
-
+    font-family: 'Roboto Slab', 'Garamond';
+    font-weight: 400;
 }
 
 .part1{
