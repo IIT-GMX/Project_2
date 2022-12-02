@@ -205,8 +205,8 @@ input[type=submit] {
 
 .image {
   display: block;
-  margin-left: 20%;
-  margin-right: auto;
+  margin-left: 0%;
+  margin-right: 0%;
   width: 50%;
 }
 
