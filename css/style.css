@@ -14,6 +14,21 @@ html {
   margin-top: .5%;
   padding-top: .5%;
   text-align: center;
+  font-size: 1em;
+  line-height: 1.2em;
+  padding: 1.2em;
+}
+
+h1 {
+  font-family: 'Noto Serif Gujarati', 'Times New Roman';
+  font-size: 1.2em;
+  line-height: 1.44em;
+  font-weight: 500;
+  /* padding-bottom: 10px; */
+}
+p {
+  font-family: 'Roboto Slab', 'Garamond';
+  font-weight: 400;
 }
 
 .isud_header a {
@@ -61,6 +76,9 @@ html {
 .textWWWC {
   font-weight: bold;
   background-color: #71717182;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: 500;
   padding: 1em;
   border-radius: 6px;
 }
