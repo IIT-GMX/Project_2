@@ -1,6 +1,7 @@
 html {
   background-color: rgb(238, 238, 238);
 }
+
 .fontsize {
   font-size: 1em;
 }
@@ -8,7 +9,7 @@ html {
 /*** Index Page ***/
 .isud_header,
 .secheader {
-
+  font-family: 'Philosopher', 'Times New Roman';
   margin-left: auto;
   margin-right: auto;
   margin-top: .5%;
@@ -20,12 +21,13 @@ html {
 }
 
 h1 {
-  font-family: 'Noto Serif Gujarati', 'Times New Roman';
+  font-family: 'Philosopher', 'Times New Roman';
   font-size: 1.2em;
   line-height: 1.44em;
   font-weight: 500;
   /* padding-bottom: 10px; */
 }
+
 p {
   font-family: 'Roboto Slab', 'Garamond';
   font-weight: 400;
@@ -112,9 +114,15 @@ input[type=submit] {
 }
 
 /* Slideshow container */
-.quote_home{
-  /* background-color: blue; */
+.quote_home {
+  font-style: italic;
+  padding: 1em;
 }
+
+.need_padding_1em {
+  padding: 1em;
+}
+
 .slideshow-container {
   /* float: right; */
   box-sizing: border-box;
@@ -180,22 +188,22 @@ input[type=submit] {
 
 /** Xiaojie Luo page css code **/
 
-.container{
-  border:10px solid indianred;
+.container {
+  border: 10px solid indianred;
   display: flex;
 
 }
 
-.part1{
+.part1 {
   border: 10px solid navajowhite;
 }
 
-.part2{
+.part2 {
   border: 10px solid darkolivegreen;
 
 }
 
-.image{
+.image {
   display: block;
   margin-left: 20%;
   margin-right: auto;
@@ -220,7 +228,7 @@ input[type=submit] {
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 
 @media screen and (max-width: 600px) {
-  
+
   .topnav li:not(:first-child) {
     display: none;
   }
@@ -252,6 +260,7 @@ input[type=submit] {
   .fontsize {
     font-size: 1.2em;
   }
+
   /*** Index Page ***/
   .slideshow-container {
     max-width: 50%;
@@ -312,6 +321,7 @@ input[type=submit] {
   .fontsize {
     font-size: 1em;
   }
+
   /*** Index Page ***/
   .slideshow-container {
     max-width: 50%;
@@ -369,7 +379,8 @@ input[type=submit] {
     clear: both;
   }
 
-  .secheader, .nav-list{
+  .secheader,
+  .nav-list {
     border-radius: 6px;
   }
 }

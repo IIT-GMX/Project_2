@@ -15,6 +15,7 @@
     justify-content: center;
     overflow: hidden;
     list-style-type: none;
+    font-family: font-family: 'Philosopher', 'Times New Roman';
 }
 .nav-item a {
     display: flex;
