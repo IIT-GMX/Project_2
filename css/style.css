@@ -173,6 +173,13 @@ input[type=submit] {
 
 }
 
+.image{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .videotitle {
   margin-left: auto;
   margin-right: auto;
