@@ -166,8 +166,6 @@ input[type=submit] {
   top: 0;
 }
 
-
-
 /* Fading animation */
 .fade {
   box-sizing: border-box;
@@ -189,34 +187,32 @@ input[type=submit] {
   width: 50%;
   max-height: fit-content;
 }
+
 /** Xiaojie Luo page css code **/
-
-.container{
-    display: flex;
-    font-family: 'Roboto Slab', 'Garamond';
-    font-weight: 400;
+.container {
+  display: flex;
+  font-family: 'Roboto Slab', 'Garamond';
+  font-weight: 400;
 }
 
-.part1{
-    border: 5px solid plum;
-    border-radius: 5px;
-    margin: 5px 5px;
+.part1 {
+  border: 5px solid plum;
+  border-radius: 5px;
+  margin: 5px 5px;
 }
 
-.part2{
-    border: 5px solid plum;
-    border-radius: 5px;
-    margin: 5px;
-
+.part2 {
+  border: 5px solid plum;
+  border-radius: 5px;
+  margin: 5px;
 }
 
-.image img{
- display: block;
- height: auto;
- margin-left: auto;
- margin-right: auto;
- width: 100%;
-
+.image img {
+  display: block;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
 .videotitle {
@@ -234,21 +230,18 @@ iframe {
   align-self: center;
   width: 70%;
   height: 20em;
- }
+}
 
 .center {
   margin-left: auto;
   margin-right: auto;
   display: block
- }
+}
 
 /*** Index Page END ***/
-
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
-
 @media screen and (max-width: 600px) {
-
   .topnav li:not(:first-child) {
     display: none;
   }
@@ -316,7 +309,6 @@ iframe {
     font-size: 1.2em;
     line-height: 1.44em;
     padding: 1.44em;
-
     width: 45%;
     float: right;
     margin-right: 1%;
