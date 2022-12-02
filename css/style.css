@@ -188,18 +188,21 @@ input[type=submit] {
 
 /** Xiaojie Luo page css code **/
 
-.container {
-  border: 10px solid indianred;
-  display: flex;
+.container{
+    display: flex;
 
 }
 
-.part1 {
-  border: 10px solid navajowhite;
+.part1{
+    border: 5px solid plum;
+    border-radius: 5px;
+    margin: 5px 5px;
 }
 
-.part2 {
-  border: 10px solid darkolivegreen;
+.part2{
+    border: 5px solid plum;
+    border-radius: 5px;
+    margin: 5px 5px;
 
 }
 
