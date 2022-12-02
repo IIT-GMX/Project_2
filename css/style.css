@@ -185,7 +185,10 @@ input[type=submit] {
   }
 }
 
-
+.slideshow-container2 {
+  width: 50%;
+  max-height: fit-content;
+}
 /** Xiaojie Luo page css code **/
 
 .container{
@@ -207,10 +210,10 @@ input[type=submit] {
 
 }
 
-.image {
+.image img{
  display: block;
  height: auto;
- margin-left: 5%;
+ margin-left: auto;
  margin-right: auto;
  width: 100%;
 
@@ -230,7 +233,7 @@ input[type=submit] {
 iframe {
   align-self: center;
   width: 70%;
-  height: 30em;
+  height: 20em;
  }
 
 .center {
